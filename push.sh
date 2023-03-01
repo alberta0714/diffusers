@@ -8,7 +8,9 @@ ssh ${SSHREMOTE} 'cd /usr/local/code/onediff; git pull'
 ssh ${SSHREMOTE} 'cd /usr/local/code/onediff; python3 examples/text_to_image_sd21.py'
 #ssh ${SSHREMOTE} 'cd /usr/local/code/onediff; python3 examples/text_to_image_chill.py'
 
-scp ${SSHREMOTE}:/usr/local/code/onediff/cat_2_1_768.png /Users/sunzhanchao/stabilityai/
-ssh ${SSHREMOTE} 'cd /usr/local/code/onediff; rm -rf *.png'
+#scp ${SSHREMOTE}:/usr/local/code/onediff/cat_2_1_768.png /Users/sunzhanchao/stabilityai/
+scp ${SSHREMOTE}:/usr/local/code/onediff/cat_2_1_768.png /d/usr/local/code/github/onedif_pics/
+
+#ssh ${SSHREMOTE} 'cd /usr/local/code/onediff; rm -rf *.png'
 
 exit 0
