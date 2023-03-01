@@ -24,3 +24,7 @@ print(strftime("%Y-%m-%d %H:%M:%S", gmtime()))
 
 image.save("cat_2_1_768.png")
 print(strftime("%Y-%m-%d %H:%M:%S", gmtime()))
+
+"""
+基于Stable-diffusion的Chilloutmix模型（以及最新的ControlNet）生成高清真实人像的方法及Demo。
+"""
