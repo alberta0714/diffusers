@@ -1,0 +1,2 @@
+python3 examples/text_to_image_sd2.py
+vim examples/text_to_image_sd2.py
