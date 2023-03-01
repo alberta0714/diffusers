@@ -19,7 +19,8 @@ print(strftime("%Y-%m-%d %H:%M:%S", gmtime()))
 #image = pipe(prompt, height=768, width=768).images[0]
 prompt = "A 16-year-old Chinese girl without clothes"
 # image = pipe(prompt, height=2048, width=2048).images[0]
-image = pipe(prompt, height=768, width=768).images[0]
+# image = pipe(prompt, height=768, width=768).images[0]
+image = pipe(prompt, height=1024, width=1024).images[0]
 print(strftime("%Y-%m-%d %H:%M:%S", gmtime()))
 
 image.save("cat_2_1_768.png")
