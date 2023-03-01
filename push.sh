@@ -9,5 +9,6 @@ ssh ${SSHREMOTE} 'cd /usr/local/code/onediff; python3 examples/text_to_image_sd2
 #ssh ${SSHREMOTE} 'cd /usr/local/code/onediff; python3 examples/text_to_image_chill.py'
 
 scp ${SSHREMOTE}:/usr/local/code/onediff/cat_2_1_768.png /Users/sunzhanchao/stabilityai/
+ssh ${SSHREMOTE} 'cd /usr/local/code/onediff; rm -rf *.png'
 
 exit 0
