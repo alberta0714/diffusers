@@ -8,6 +8,8 @@ scp root@152.136.186.81:/usr/local/code/onediff/cat.png ./
 
 scp root@152.136.186.81:/usr/local/code/onediff/cat_2_2048.png ./
 scp root@152.136.186.81:/usr/local/code/onediff/cat_2_1_2048.png ./
+scp root@152.136.186.81:/usr/local/code/onediff/cat_2_1_768.png ./
+
 
 033227
 033458
