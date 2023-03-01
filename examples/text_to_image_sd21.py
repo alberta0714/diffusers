@@ -17,7 +17,7 @@ pipe = pipe.to("cuda")
 print(strftime("%Y-%m-%d %H:%M:%S", gmtime()))
 #prompt = "a photo of an astronaut riding a horse on mars"
 #image = pipe(prompt, height=768, width=768).images[0]
-prompt = "A nude sexy girl wearing underwear."
+prompt = "cat"
 # image = pipe(prompt, height=2048, width=2048).images[0]
 image = pipe(prompt, height=768, width=768).images[0]
 # image = pipe(prompt, height=1024, width=1024).images[0]
